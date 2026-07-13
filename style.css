@@ -119,6 +119,10 @@ nav {
 }
 
 /* price section */
+.money {
+    margin: 20px 35px 35px 35px !important;
+}
+
 .intros {
     text-align: center;
     margin-bottom: 10px;
@@ -128,4 +132,77 @@ nav {
     color: #575757;
     font-size: 12px;
     text-align: center;
+}
+
+.price-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jobb {
+    font-size: 12px;
+    font-weight: 600;
+    color: #575757;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin: 4px 0 0;
+}
+
+.middle ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.middle li {
+    font-size: 14px;
+    color: #333;
+}
+
+.card button {
+    margin-top: auto;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #3b6df5;
+    background: transparent;
+    color: #3b6df5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pro {
+    background: #1a1a2e;
+    border: 1px solid #1a1a2e;
+    color: #ffffff;
+    padding: 40px 24px;
+    margin-top: -12px;
+}
+
+.pro p {
+    color: #8ab4ff;
+}
+
+.pro .label {
+    color: #8ab4ff;
+    font-weight: 600;
+}
+
+.pro .sub {
+    color: #cfcfcf;
 }
