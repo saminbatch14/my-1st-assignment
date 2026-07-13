@@ -239,3 +239,33 @@ nav {
     color: #575757;
     margin: 0;
 }
+
+/* footer */
+.site-footer {
+    background: #1a1a2e;
+    padding: 24px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    color: #cfcfcf;
+    font-size: 13px;
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-link {
+    color: #cfcfcf;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
