@@ -1,3 +1,71 @@
-h2 {
-    color: blue;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* navigation bar design */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+}
+
+.menue ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: #575757;
+    font-size: 15px;
+    gap: 25px;
+}
+
+.register-btn button {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* banner design */
+
+.banner {
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 310px;
+}
+
+.banner .heading {
+    color: #FFFFFF;
+
+}
+
+.banner .heading h1 {
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.banner .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner .register-btn button {
+    padding: 12px 16px;
+    font-weight: bold;
 }
