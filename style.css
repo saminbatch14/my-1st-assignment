@@ -162,7 +162,7 @@ nav {
 }
 
 .middle ul {
-    list-style: none;
+    list-style-position: outside blue;
     padding: 0;
     margin: 0;
     display: flex;
